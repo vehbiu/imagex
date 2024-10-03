@@ -18,7 +18,7 @@ A browser-based image converter that allows you to convert images to various for
 
 Try it out live at [imagex.vehbi.me](https://imagex.vehbi.me)
 
-<!-- ![Website Preview](https://via.placeholder.com/800x400.png?text=Image+Converter+Preview) -->
+![Website Preview](https://raw.githubusercontent.com/vehbiu/imagex/refs/heads/master/.readme/preview.png)
 
 ## 🛠️ Technologies Used
 
