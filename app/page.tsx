@@ -45,6 +45,7 @@ export default function ImageConverter() {
       setError(null)
       // Reset width and height to image dimensions
       const img = new Image()
+      img.setAttribute('crossorigin', 'anonymous');
       img.src = URL.createObjectURL(file)
       img.onload = () => {
         setWidth(img.width)
@@ -66,6 +67,7 @@ export default function ImageConverter() {
     }
 
     const img = new Image()
+    img.setAttribute('crossorigin', 'anonymous');
     img.onload = () => {
       const canvas = document.createElement('canvas')
       canvas.width = width;
